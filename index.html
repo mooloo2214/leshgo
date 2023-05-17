@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+    integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+    crossorigin=""/>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+
+<link rel="stylesheet" href="/style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+
+ 
+
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+    integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+    crossorigin=""></script>
+
+
+<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+
+    <script src="main.js" defer></script>
+   
+
+    <title>Document</title>
+</head>
+<body>
+
+        <nav>
+          <img src="/Images/logo_horizontal.png" alt="nav-logo">
+                <div class="nav__menu">
+                <ul>
+             <li><a href="#">Vehicles</a></li>
+             <li><a href="#">Explore NZ</a></li>
+             <li><a href="#">About Us</a></li>
+             </ul>
+            </div>
+           
+
+             <div class="nav__menu--support">
+                <!-- <a href="#">Support</a> -->
+                <a href="#">
+                    <div id="signIn-circle"></div>Sign In</a>
+             </div>
+            <div class="nav__dropdown--btn">
+                <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        
+        </nav>
+        
+        <div class="nav__dropdown display__toggle">
+            <ul>
+                <li><a href="#" class="signin">Sign In</a></li>
+                <li><a href="#">Vehicles</a></li>
+                <li><a href="https://www.newzealand.com/nz/">Explore NZ</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Support</a></li>
+                </ul>
+            
+        </div>
+   
+
+    <div class="popup__black"></div>
+
+    <div id="section-one" class="section__one">
+
+<div id="homepage-container">
+
+<img id="homepage__logo" src="/Images/logo_vertical.png" alt="">
+
+<div id="homepage-form-horizontal">
+    <form onsubmit="formSubmission()">
+   
+   <div id="iteniary-container">
+    
+    <div class="flexDiv">
+        <label for="location-search-btn">Location</label>
+        <input type="button" value="Select          &#9660;" id="location-search-btn">
+    </div>
+    <div class="flexDiv ">
+        <label for="people-count" class="rightMargin">Passenger</label>
+           <input type="number" id="people-count" name="peopleCount"
+           min="1" max="6" >
+        </div>
+
+    <div class="flexDiv stretchInput">
+        <label for="start-date">Pick and return date</label>
+         <input type="date" id="start-date" class="datepicker" name="trip-start" value="">
+            </div>
+
+    
+        </div>
+            <input type="button" id="homepage-submit-button" value="Search">
+            
+
+          
+    </form>
+</div>
+</div>
+
+<div id="homepage__image">
+    <img src="/Images/Sky_4.png" id="sky">
+    <img src="/Images/Moutain_Lake_3.png" id="mountain">
+    <img src="/Images/Seal_2.png" id="seal">
+    
+    <img src="/Images/Bush_1.png" id="bush">
+    <img src="/Images/Bird_0.png" id="bird">
+    <img src="/Images/Road_1.png" id="road">
+    <img src="/Images/Car_1.png" id="car">
+</div>
+
+<!-- Location Select Popup -->
+<div id="popup-location" class="popup">
+    <div class="cross">
+        <div id="cross-location-popup" class="cross__area">
+        <div class="cross__right cross__white"></div>
+        <div class="cross__left cross__white"></div>
+    </div>
+        </div>
+
+        <div class="wrap">
+    <div class="popup__location--selector">
+        <form >
+          
+            <select onchange="locationInput1();" name="startLocation" id="start-location" required>
+               <option value="" disabled selected>Pick up location</option>
+              <option value="Auckland">Auckland Airport</option>
+              <option value="Wellington">Wellington Airport</option>
+              <option value="Queenstown">Queenstown Airport</option>
+              <option value="Christchurch">Christchurch Airport</option>
+            </select>
+            <br><br>
+
+            <select onchange="locationInput2();" name="returnLocation" id="return-location" required>
+                <option value="" disabled selected>Return location</option>
+              <option value="Auckland">Auckland Airport</option>
+              <option value="Wellington">Wellington Airport</option>
+              <option value="Queenstown">Queenstown Airport</option>
+              <option value="Christchurch">Christchurch Airport</option>
+            </select>
+            <br><br>
+
+<span id="popup-display-distance"></span>
+
+            <input type="button" value="Confirm" id="location-confirm-btn">
+          </form>
+        </div>
+    
+
+<div id="location-select-map" class="popup__map"></div>
+</div>
+</div>
+
+    </div>
+
+    <div id="section-stepOne" class="section__Steps">
+
+    </div>
+    
+
+
+
+        <section class="homepage__section--two">
+            <div class="home__sectiontwo--title">
+    <h2>Explore NZ</h2>
+    <h3>Choose the adventure you want</h3>
+
+<div id="sectiontwo__card--container">
+
+
+<div class="sectiontwo__card card1">
+  
+    <span>Wonders of the land</span>
+    <p>Be inspired by mother nature</p>
+
+</div>
+
+<div class="sectiontwo__card card2">
+    <span>Chillax</span>
+    <p>Enjoy the relaxation</p>
+</div>
+<div class="sectiontwo__card card3">
+    <span>Maori Culture</span>
+    <p>Experience a part of Aotaroa</p>
+</div>
+
+
+
+</div>
+
+
+            
+        </section>
+
+</body>
+</html>
