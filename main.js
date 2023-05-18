@@ -320,7 +320,7 @@ iteniarySubmitButton.addEventListener("click", function (event) {
     stepOneSection.style.display = "flex";
     stepOneIteniary.style.position = "unset";
 
-    stepOneSection.innerHTML = "";
+    stepOneSection.innerHTML = "<div><button>Back</button><div>";
     pushVehiclesArray(vehicleList);
   }
 });
