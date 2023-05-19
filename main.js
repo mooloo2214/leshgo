@@ -39,6 +39,8 @@ let stepOneSection = document.querySelector("#section-stepOne");
 let carPopupBg = document.querySelector(".popup__black");
 
 let dateInput = document.querySelector("#start-date").value;
+//header btn
+let headerBtnVehicles = document.querySelector(".header-button__vehicles");
 
 ///Image Scroll
 let sky = document.querySelector("#sky");
@@ -108,6 +110,16 @@ dropdownBtn.addEventListener("click",function(){
   displayToggle.classList.toggle("display__toggle");
 });
 
+//Header button Vehicles
+headerBtnVehicles.addEventListener("click", function(){
+  homepagelogo.style.display = "flex";
+  homepageCoverImages.style.display = "flex";
+  iteniaryContainer.classList.remove("iteniary-container--stepOne");
+  sectionOne.classList.remove("section__one--toggle");
+  stepOneSection.style.display = "none";
+  stepOneIteniary.style.position = "absolute";
+  stepOneSection.innerHTML = "";
+})
 
 //Get Start and End location//
 const map = L.map("location-select-map").setView(
@@ -320,13 +332,13 @@ iteniarySubmitButton.addEventListener("click", function (event) {
     stepOneSection.style.display = "flex";
     stepOneIteniary.style.position = "unset";
 
-    stepOneSection.innerHTML = "<div><button>Back</button><div>";
+    stepOneSection.innerHTML = "";
     pushVehiclesArray(vehicleList);
   }
 });
 
 /// Getting vehicles that fit the criteria and pushing them into vehicleArray
-
+GIT
 function pushVehiclesArray(vehicleList) {
   vehicleArray = [];
   for (let vehicle of vehicleList) {
