@@ -338,7 +338,7 @@ iteniarySubmitButton.addEventListener("click", function (event) {
 });
 
 /// Getting vehicles that fit the criteria and pushing them into vehicleArray
-GIT
+
 function pushVehiclesArray(vehicleList) {
   vehicleArray = [];
   for (let vehicle of vehicleList) {
