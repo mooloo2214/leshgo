@@ -189,7 +189,7 @@ nav ul li {
 }
 
 .card1 {
-  background-image: url("/Images/waitomo_cave_shawnj.jpg");
+  background-image: url("Images/waitomo_cave_shawnj.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 60%;
@@ -209,7 +209,7 @@ nav ul li {
 }
 
 .card2 {
-  background-image: url("/Images/hotsprings.jpg");
+  background-image: url("Images/hotsprings.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 40%;
@@ -229,7 +229,7 @@ nav ul li {
 }
 
 .card3 {
-  background-image: url("/Images/Mataatua_whakatane.jpg");
+  background-image: url("Images/Mataatua_whakatane.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 60%;
