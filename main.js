@@ -83,7 +83,7 @@ let vehicleList;
 
 ///Async Function to bring Vehicle List
 async function fetchVehicleJson() {
-  const response = await fetch("/vehicleList.json");
+  const response = await fetch("vehicleList.json");
   const data = await response.json();
   vehicleList = data.vehicles; //pushing vehicles into list
 }
