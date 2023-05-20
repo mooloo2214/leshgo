@@ -466,10 +466,10 @@ function displayVehicleCards() {
               <h6>${motorbikeDetail.type}</h6>
              
               <ul>
-                  <li><img src="/Images/icons-transmission.png">${motorbikeDetail.mainFeatures[0].Transmission}</li>
-                  <li><img src="/Images/icons-engine.png">${motorbikeDetail.mainFeatures[0].Engine}</li>
-                  <li><img src="/Images/icons-fuel.png">${motorbikeDetail.mainFeatures[0].fuelType}</li>
-                  <li><img src="/Images/icons-person.png">${motorbikeDetail.mainFeatures[0].numOfSeats}</li>
+                  <li><img src="Images/icons-transmission.png">${motorbikeDetail.mainFeatures[0].Transmission}</li>
+                  <li><img src="Images/icons-engine.png">${motorbikeDetail.mainFeatures[0].Engine}</li>
+                  <li><img src="Images/icons-fuel.png">${motorbikeDetail.mainFeatures[0].fuelType}</li>
+                  <li><img src="Images/icons-person.png">${motorbikeDetail.mainFeatures[0].numOfSeats}</li>
                   </ul>
               </div>
               </div>
@@ -489,10 +489,10 @@ function displayVehicleCards() {
               <h6>${smallCarDetail.type}</h6>
              
               <ul>
-                  <li><img src="/Images/icons-transmission.png">${smallCarDetail.mainFeatures[0].Transmission}</li>
-                  <li><img src="/Images/icons-engine.png">${smallCarDetail.mainFeatures[0].Engine}</li>
-                  <li><img src="/Images/icons-fuel.png">${smallCarDetail.mainFeatures[0].fuelType}</li>
-                  <li><img src="/Images/icons-person.png">${smallCarDetail.mainFeatures[0].numOfSeats}</li>
+                  <li><img src="Images/icons-transmission.png">${smallCarDetail.mainFeatures[0].Transmission}</li>
+                  <li><img src="Images/icons-engine.png">${smallCarDetail.mainFeatures[0].Engine}</li>
+                  <li><img src="Images/icons-fuel.png">${smallCarDetail.mainFeatures[0].fuelType}</li>
+                  <li><img src="Images/icons-person.png">${smallCarDetail.mainFeatures[0].numOfSeats}</li>
                   </ul>
               </div>
               </div>
@@ -512,10 +512,10 @@ function displayVehicleCards() {
               <h6>${largeCarDetail.type}</h6>
              
               <ul>
-                  <li><img src="/Images/icons-transmission.png">${largeCarDetail.mainFeatures[0].Transmission}</li>
-                  <li><img src="/Images/icons-engine.png">${largeCarDetail.mainFeatures[0].Engine}</li>
-                  <li><img src="/Images/icons-fuel.png">${largeCarDetail.mainFeatures[0].fuelType}</li>
-                  <li><img src="/Images/icons-person.png">${largeCarDetail.mainFeatures[0].numOfSeats}</li>
+                  <li><img src="Images/icons-transmission.png">${largeCarDetail.mainFeatures[0].Transmission}</li>
+                  <li><img src="Images/icons-engine.png">${largeCarDetail.mainFeatures[0].Engine}</li>
+                  <li><img src="Images/icons-fuel.png">${largeCarDetail.mainFeatures[0].fuelType}</li>
+                  <li><img src="Images/icons-person.png">${largeCarDetail.mainFeatures[0].numOfSeats}</li>
                   </ul>
               </div>
               </div>
@@ -535,10 +535,10 @@ function displayVehicleCards() {
               <h6>${motorHomeDetail.type}</h6>
              
               <ul>
-                  <li><img src="/Images/icons-transmission.png">${motorHomeDetail.mainFeatures[0].Transmission}</li>
-                  <li><img src="/Images/icons-engine.png">${motorHomeDetail.mainFeatures[0].Engine}</li>
-                  <li><img src="/Images/icons-fuel.png">${motorHomeDetail.mainFeatures[0].fuelType}</li>
-                  <li><img src="/Images/icons-person.png">${motorHomeDetail.mainFeatures[0].numOfSeats}</li>
+                  <li><img src="Images/icons-transmission.png">${motorHomeDetail.mainFeatures[0].Transmission}</li>
+                  <li><img src="Images/icons-engine.png">${motorHomeDetail.mainFeatures[0].Engine}</li>
+                  <li><img src="Images/icons-fuel.png">${motorHomeDetail.mainFeatures[0].fuelType}</li>
+                  <li><img src="Images/icons-person.png">${motorHomeDetail.mainFeatures[0].numOfSeats}</li>
                   </ul>
               </div>
               </div>
@@ -606,10 +606,10 @@ function searchId(vehicleIdString) {
 <h4 class="white-text">Specifications</h4>
 <hr style="height:2px;border-width:0;background-color:white">
       <ul id="popup-features-list">
-        <li><img src="/Images/orange-icons-transmission.png" class="popup__vehicle--icon">${vehicle.mainFeatures[0].Transmission}</li>
-        <li><img src="/Images/orange-icons-engine.png" class="popup__vehicle--icon">${vehicle.mainFeatures[0].Engine}</li>
-        <li><img src="/Images/orange-icons-fuel.png" class="popup__vehicle--icon">${vehicle.mainFeatures[0].fuelType}</li>
-        <li><img src="/Images/orange-icons-ppl.png" class="popup__vehicle--icon">${vehicle.mainFeatures[0].numOfSeats} seats</li>
+        <li><img src="Images/orange-icons-transmission.png" class="popup__vehicle--icon">${vehicle.mainFeatures[0].Transmission}</li>
+        <li><img src="Images/orange-icons-engine.png" class="popup__vehicle--icon">${vehicle.mainFeatures[0].Engine}</li>
+        <li><img src="Images/orange-icons-fuel.png" class="popup__vehicle--icon">${vehicle.mainFeatures[0].fuelType}</li>
+        <li><img src="Images/orange-icons-ppl.png" class="popup__vehicle--icon">${vehicle.mainFeatures[0].numOfSeats} seats</li>
         ${sideFeatureList}
         </ul>
         </div>

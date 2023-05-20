@@ -14,8 +14,8 @@
         "fuelType":"Petrol",
         "numOfSeats":1
         }],
-    "sideFeatures":[{"name":"Helmet", "link": "/Images/orange-icons-helmet"},{"name": "Gloves", "link": "/Images/orange-icons-gloves.png"}],
-    "image": "/Images/bmw_southIsland.jpeg",
+    "sideFeatures":[{"name":"Helmet", "link": "Images/orange-icons-helmet"},{"name": "Gloves", "link": "Images/orange-icons-gloves.png"}],
+    "image": "Images/bmw_southIsland.jpeg",
     "id":"b001",
     "class":"motorbike",
     "description": "You're hungry for asphalt. For every mile. For new horizons. Then the Bagger is the motorcycle for your journey. Extraordinary running smoothness and its impressive power development, it leaves no doubts – the journey begins now."
@@ -34,8 +34,8 @@
         "fuelType":"Petrol",
         "numOfSeats":1
         }],
-    "sideFeatures":[{"name":"Helmet", "link": "/Images/orange-icons-helmet.png"},{"name": "Gloves", "link": "/Images/orange-icons-gloves.png"}],
-    "image": "/Images/harleyDavidson_arthurPass.jpg",
+    "sideFeatures":[{"name":"Helmet", "link": "Images/orange-icons-helmet.png"},{"name": "Gloves", "link": "Images/orange-icons-gloves.png"}],
+    "image": "Images/harleyDavidson_arthurPass.jpg",
     "id":"b002",
     "class":"motorbike",
     "description": "Hop aboard your hog and head to new locations. Spend all day exploring the area, head to the hotel, then do it all again the next day. Enjoy better gas mileage on road trips and a more thrill-filled journey."
@@ -55,8 +55,8 @@
         "fuelType":"Petrol",
         "numOfSeats":2
         }],
-    "sideFeatures":[{"name": "Bluetooth", "link": "/Images/orange-icons-bluetooth.png"},{"name": "Air Con", "link": "/Images/orange-icons-aircon.png"}],
-    "image": "/Images/yaris_smallCar.jpg",
+    "sideFeatures":[{"name": "Bluetooth", "link": "Images/orange-icons-bluetooth.png"},{"name": "Air Con", "link": "Images/orange-icons-aircon.png"}],
+    "image": "Images/yaris_smallCar.jpg",
     "id":"s001",
     "class":"smallCar",
     "description": "The car is suited for all distances of travel, being a solid option for travel within a city and longer trips. The car receives excellent mileage, both in the city and on the highway, and is extremely durable."
@@ -75,8 +75,8 @@
         "fuelType":"Petrol",
         "numOfSeats":2
         }],
-    "sideFeatures":[{"name": "Bluetooth", "link": "/Images/orange-icons-bluetooth.png"},{"name": "Air Con", "link": "/Images/orange-icons-aircon.png"}],
-    "image": "/Images/kiaCorolla_smallCar.jpg",
+    "sideFeatures":[{"name": "Bluetooth", "link": "Images/orange-icons-bluetooth.png"},{"name": "Air Con", "link": "Images/orange-icons-aircon.png"}],
+    "image": "Images/kiaCorolla_smallCar.jpg",
     "id":"s002",
     "class":"smallCar",
     "description": "Toyota Corolla is a good compact car. It impresses with its comfy front seats, cushioned ride, and great gas mileage. Great for small families to go from A to B."
@@ -95,8 +95,8 @@
         "fuelType":"Petrol",
         "numOfSeats":2
         }],
-    "sideFeatures":[{"name": "Bluetooth", "link": "/Images/orange-icons-bluetooth.png"},{"name": "Air Con", "link": "/Images/orange-icons-aircon.png"}],
-    "image": "/Images/hondaJazz_smallCar.jpg",
+    "sideFeatures":[{"name": "Bluetooth", "link": "Images/orange-icons-bluetooth.png"},{"name": "Air Con", "link": "Images/orange-icons-aircon.png"}],
+    "image": "Images/hondaJazz_smallCar.jpg",
     "id":"s003",
     "class":"smallCar",
     "description": "Jazz is one of the more comfortable cars in the small car category and it drives along particularly smoothly on the motorway. It is spacious enough to fit your luggages and passengers without squashing."
@@ -115,8 +115,8 @@
         "fuelType":"Petrol",
         "numOfSeats":2
         }],
-    "sideFeatures":[{"name": "Bluetooth", "link": "/Images/orange-icons-bluetooth.png"},{"name": "Air Con", "link": "/Images/orange-icons-aircon.png"}],
-    "image": "/Images/suzukiSwift_smallCar.jpg",
+    "sideFeatures":[{"name": "Bluetooth", "link": "Images/orange-icons-bluetooth.png"},{"name": "Air Con", "link": "Images/orange-icons-aircon.png"}],
+    "image": "Images/suzukiSwift_smallCar.jpg",
     "id":"s004",
     "class":"smallCar",
     "description": "Popular little car - very economical with its' generous engine performance. Reliability is strongly rated and space is reasonable."
@@ -136,8 +136,8 @@
         "fuelType":"Petrol",
         "numOfSeats":5
         }],
-    "sideFeatures":[{"name": "Bluetooth", "link": "/Images/orange-icons-bluetooth.png"},{"name": "Air Con", "link": "/Images/orange-icons-aircon.png"},{"name": "Spare Tyre", "link": "/Images/orange-icons-tyre.png"}, {"name": "Tow Bar", "link": "/Images/orange-icons-towbar.png"}],
-    "image": "/Images/LandRoverDiscovery_largeCar.jpg",
+    "sideFeatures":[{"name": "Bluetooth", "link": "Images/orange-icons-bluetooth.png"},{"name": "Air Con", "link": "Images/orange-icons-aircon.png"},{"name": "Spare Tyre", "link": "Images/orange-icons-tyre.png"}, {"name": "Tow Bar", "link": "Images/orange-icons-towbar.png"}],
+    "image": "Images/LandRoverDiscovery_largeCar.jpg",
     "id":"l001",
     "class":"largeCar",
     "description": "On the open road, the Discovery is fantastic with the air suspension providing an effortlessly smooth ride. It will get you through all New Zealand weather conditions and terrains, even in the snow."
@@ -157,8 +157,8 @@
         "fuelType":"Diesel",
         "numOfSeats":6
         }],
-    "sideFeatures":[{"name": "Bluetooth", "link": "/Images/orange-icons-bluetooth.png"},{"name": "Air Con", "link": "/Images/orange-icons-aircon.png"},{"name": "Spare Tyre", "link": "/Images/orange-icons-tyre.png"}, {"name": "Tow Bar", "link": "/Images/orange-icons-towbar.png"}],
-    "image": "/Images/Mercedes Camper Van_motorhome.jpeg",
+    "sideFeatures":[{"name": "Bluetooth", "link": "Images/orange-icons-bluetooth.png"},{"name": "Air Con", "link": "Images/orange-icons-aircon.png"},{"name": "Spare Tyre", "link": "Images/orange-icons-tyre.png"}, {"name": "Tow Bar", "link": "Images/orange-icons-towbar.png"}],
+    "image": "Images/Mercedes Camper Van_motorhome.jpeg",
     "id":"m001",
     "class":"motorHome",
     "description": "Mercedes camper van has a longstanding reputation for excellent reliability. It is easy to drive, trustworth and best of all, extremely functional inside and outside. Get the full New Zealand outdoor experience by living in the drive."
